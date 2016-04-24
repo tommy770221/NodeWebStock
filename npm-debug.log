@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   '--cafile',
+1 verbose cli   './stock.crt' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of G:\NodeWorkspace\NodeWebStock\package.json
+5 verbose installManyTop reading scoped package data from G:\NodeWorkspace\NodeWebStock\node_modules\bufferhelper\package.json
+6 verbose installManyTop reading scoped package data from G:\NodeWorkspace\NodeWebStock\node_modules\cheerio\package.json
+7 verbose installManyTop reading scoped package data from G:\NodeWorkspace\NodeWebStock\node_modules\express\package.json
+8 verbose installManyTop reading scoped package data from G:\NodeWorkspace\NodeWebStock\node_modules\iconv-lite\package.json
+9 verbose installManyTop reading scoped package data from G:\NodeWorkspace\NodeWebStock\node_modules\jade\package.json
+10 verbose installManyTop reading scoped package data from G:\NodeWorkspace\NodeWebStock\node_modules\request\package.json
+11 info package.json express@3.2.6 No license field.
+12 verbose readDependencies loading dependencies from G:\NodeWorkspace\NodeWebStock\package.json
+13 silly cache add args [ 'gulp', null ]
+14 verbose cache add spec gulp
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'gulp',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'gulp',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: 'latest',
+15 silly cache add   type: 'tag' }
+16 silly addNamed gulp@latest
+17 verbose addNamed "latest" is being treated as a dist-tag for gulp
+18 info addNameTag [ 'gulp', 'latest' ]
+19 silly mapToRegistry name gulp
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/gulp
+23 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/gulp
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 23:00:57
+27 verbose request id 30cbd1861f3ae383
+28 http request GET https://registry.npmjs.org/gulp
+29 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+30 info attempt registry request try #2 at 23:01:07
+31 http request GET https://registry.npmjs.org/gulp
+32 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+33 info attempt registry request try #3 at 23:02:07
+34 http request GET https://registry.npmjs.org/gulp
+35 verbose stack Error: unable to get local issuer certificate
+35 verbose stack     at Error (native)
+35 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+35 verbose stack     at emitNone (events.js:67:13)
+35 verbose stack     at TLSSocket.emit (events.js:166:7)
+35 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+36 verbose cwd G:\NodeWorkspace\NodeWebStock
+37 error Windows_NT 6.1.7601
+38 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp" "--cafile" "./stock.crt"
+39 error node v4.2.4
+40 error npm  v2.14.12
+41 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+42 error unable to get local issuer certificate
+43 error If you need help, you may report this error at:
+43 error     <https://github.com/npm/npm/issues>
+44 verbose exit [ 1, true ]
