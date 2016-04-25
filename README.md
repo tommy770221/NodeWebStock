@@ -2,10 +2,12 @@
 
 # NodeWebStock
 
-
+For 番仔 要的指數資料  (node爬蟲)
 
 ## Usage
+###在command line 輸入以下
 
+node WebStockThree.js
 
 
 ## Developing
